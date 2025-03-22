@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager", "StockManager\StockManager.csproj", "{C140047A-CEDB-4CE4-A35A-1E68F8399C4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{B8B3D627-8A71-4B68-BC3B-B7F3A3F2B169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{146D9A78-49D7-4399-B8EA-EFAC0A600F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{62FC544B-C024-4D15-8870-821B3EB90315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Mediator", "StockManager.Mediator\StockManager.Mediator.csproj", "{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stock", "Stock", "{58907C68-1178-4DE3-B6B4-7C990AFF4C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Modules.Stock.BO", "StockManager.Modules.Stock.BO\StockManager.Modules.Stock.BO.csproj", "{9691E97B-FDA5-41E6-B37D-F76377DDDD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Modules.Stock.Infrastructure", "StockManager.Modules.Stock.Infrastructure\StockManager.Modules.Stock.Infrastructure.csproj", "{549E98EE-1F74-4BB5-9DC5-0D83184402D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Modules.Stock.Logic", "StockManager.Modules.Stock.Logic\StockManager.Modules.Stock.Logic.csproj", "{4E362F4B-3894-4BF3-BED0-78C3D76D1683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Shared.Proxy", "StockManager.Shared.Proxy\StockManager.Shared.Proxy.csproj", "{E61AD672-CF6D-4AA3-9732-D2BDE7660634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Shared.Utils", "StockManager.Shared.Utils\StockManager.Shared.Utils.csproj", "{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManager.Test", "StockManager.Test\StockManager.Test.csproj", "{CF31400A-6E92-4962-97A6-07F559D34916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C140047A-CEDB-4CE4-A35A-1E68F8399C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C140047A-CEDB-4CE4-A35A-1E68F8399C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C140047A-CEDB-4CE4-A35A-1E68F8399C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C140047A-CEDB-4CE4-A35A-1E68F8399C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9691E97B-FDA5-41E6-B37D-F76377DDDD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9691E97B-FDA5-41E6-B37D-F76377DDDD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9691E97B-FDA5-41E6-B37D-F76377DDDD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9691E97B-FDA5-41E6-B37D-F76377DDDD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549E98EE-1F74-4BB5-9DC5-0D83184402D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549E98EE-1F74-4BB5-9DC5-0D83184402D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549E98EE-1F74-4BB5-9DC5-0D83184402D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549E98EE-1F74-4BB5-9DC5-0D83184402D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E362F4B-3894-4BF3-BED0-78C3D76D1683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E362F4B-3894-4BF3-BED0-78C3D76D1683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E362F4B-3894-4BF3-BED0-78C3D76D1683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E362F4B-3894-4BF3-BED0-78C3D76D1683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61AD672-CF6D-4AA3-9732-D2BDE7660634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61AD672-CF6D-4AA3-9732-D2BDE7660634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61AD672-CF6D-4AA3-9732-D2BDE7660634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61AD672-CF6D-4AA3-9732-D2BDE7660634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF31400A-6E92-4962-97A6-07F559D34916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF31400A-6E92-4962-97A6-07F559D34916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF31400A-6E92-4962-97A6-07F559D34916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF31400A-6E92-4962-97A6-07F559D34916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3D9AA87-7BE6-4016-ADB6-E690A4AB16D5} = {B8B3D627-8A71-4B68-BC3B-B7F3A3F2B169}
+		{58907C68-1178-4DE3-B6B4-7C990AFF4C55} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9691E97B-FDA5-41E6-B37D-F76377DDDD79} = {58907C68-1178-4DE3-B6B4-7C990AFF4C55}
+		{549E98EE-1F74-4BB5-9DC5-0D83184402D5} = {58907C68-1178-4DE3-B6B4-7C990AFF4C55}
+		{4E362F4B-3894-4BF3-BED0-78C3D76D1683} = {58907C68-1178-4DE3-B6B4-7C990AFF4C55}
+		{E61AD672-CF6D-4AA3-9732-D2BDE7660634} = {146D9A78-49D7-4399-B8EA-EFAC0A600F1D}
+		{AEF49C96-981A-4624-9D9C-7AEF2DECA4BF} = {146D9A78-49D7-4399-B8EA-EFAC0A600F1D}
+		{CF31400A-6E92-4962-97A6-07F559D34916} = {62FC544B-C024-4D15-8870-821B3EB90315}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7440D90-8D59-460B-A55E-0AB1444145B3}
+	EndGlobalSection
+EndGlobal
